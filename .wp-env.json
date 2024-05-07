@@ -1,0 +1,15 @@
+{
+  "core": "https://ja.wordpress.org/latest-ja.zip",
+  "config": {
+    "WP_DEBUG": true
+  },
+  "themes": ["./wordpress/themes/TEMPLATE_NAME"],
+  "mappings": {
+    "wp-content/uploads": "./wordpress/uploads",
+    "wp-content/themes": "./wordpress/themes",
+    "wp-content/plugins": "./wordpress/plugins"
+  },
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/wp-multibyte-patch.latest-stable.zip"
+  ]
+}

@@ -1,0 +1,26 @@
+body {
+  color: #ededed;
+  background-color: #000;
+}
+a:link,
+a:visited {
+  color: #ededed;
+  text-decoration: underline;
+}
+#canvas {
+  width: 100%;
+  max-width: 500px;
+}
+.bg {
+  max-width: 500px;
+  height: auto;
+  aspect-ratio: 1000/563;
+  background-image: url(../background.webp);
+  background-size: contain;
+}
+.static {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}

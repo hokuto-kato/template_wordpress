@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@wordpress/env": "5.16.0"
+    "@wordpress/env": "5.16.0",
+    "eslint-config-prettier": "^9.1.0"
   },
   "scripts": {
     "dev": "vite --host",
